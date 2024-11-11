@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^23.3.0"
+    "dota2-gsi": "^1.0.2",
+    "puppeteer": "^23.7.1",
+    "sharp": "^0.33.5"
   }
 }
