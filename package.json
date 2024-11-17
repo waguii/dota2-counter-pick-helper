@@ -6,22 +6,19 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "install": "opencvBuild"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@techstark/opencv-js": "^4.10.0-release.1",
     "@u4/opencv4nodejs": "^7.1.2",
     "clipboard-listener": "^0.2.3",
     "dota2-gsi": "^1.0.2",
     "puppeteer": "^23.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "screenshot-desktop": "^1.15.0",
     "sharp": "^0.33.5"
-  },
-  "devDependencies": {
-    "opencv-build": "^0.1.9"
   },
   "opencv4nodejs": {
     "disableAutoBuild": "1"

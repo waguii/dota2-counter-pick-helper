@@ -1,6 +1,8 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import RoshApiError from './rosh-api-error.js';
 
+puppeteer.use(StealthPlugin());
 class RoshApi {
     constructor() {
         this.page = null;
@@ -10,8 +12,8 @@ class RoshApi {
         const browser = await puppeteer.launch({
             headless: false,
             defaultViewport: false,
-            userDataDir: './tmp',
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
+            // userDataDir: './tmp',
+            // args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
 
         this.page = await browser.pages().then(pages => pages[0]);
