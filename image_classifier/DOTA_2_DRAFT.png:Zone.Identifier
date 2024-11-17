@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=https://cloudconvert.com/
-HostUrl=https://eu-central.storage.cloudconvert.com/tasks/0348a42f-f1b6-4574-814d-a9243ce0259c/DOTA_2_DRAFT.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20241026%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20241026T215800Z&X-Amz-Expires=86400&X-Amz-Signature=97c2f3f8a4d0cb71a4b32e3450c171b8c3e5fc210e9c41a66d5c54bb2472c122&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22DOTA_2_DRAFT.png%22&response-content-type=image%2Fpng&x-id=GetObject
