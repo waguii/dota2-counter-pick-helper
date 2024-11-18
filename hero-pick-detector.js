@@ -260,7 +260,7 @@ class DotaHeroDetector {
       const exists = await this.findImageInImage(
         source,
         heroImageBuffer,
-        0.75,
+        0.68,
         false
       );
       if (exists) {
